@@ -1,0 +1,62 @@
+$welcome: lighten(#ffff99, 10%);
+$font-color: complement($welcome);
+
+body {
+    background-image: url(MarvelImage.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+    color: $welcome;
+    margin-top: 200px;
+    
+}
+
+p {
+  text-align: left;
+  color: $font-color;
+  line-height: 30px;
+  font-size: 15px;
+  position: relative;
+  padding-left: 530px;
+    
+}
+
+a {
+	-moz-box-shadow: 0px 1px 0px 0px #3dc21b;
+	-webkit-box-shadow: 0px 1px 0px 0px #3dc21b;
+	box-shadow: 0px 1px 0px 0px #3dc21b;
+	background-color:#44c767;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:26px;
+	font-weight:bold;
+	padding:9px 57px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2f6627;
+
+}
+a:hover {
+	background-color:#5cbf2a;
+}
+a:active {
+	position:relative;
+	top:1px;
+}
+
+a, p {
+    position: relative;
+	bottom: 135px;
+    
+}
